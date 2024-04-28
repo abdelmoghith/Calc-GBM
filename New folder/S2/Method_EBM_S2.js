@@ -87,7 +87,7 @@ let Final = (document.getElementById("BtnDone").onclick = function () {
   // secound calc
 
   let Fonction = (TdFonct * 0.4 + ExamFonct * 0.6) * 2;
-  let Electronic = (TdElec * 0.4 + ExamElec * 0.6) * 2;
+  let Electronic = (TdElec * 0.4 + ExamElec * 0.6 + TpElec * 1) ;
 
   // Third calc
 
