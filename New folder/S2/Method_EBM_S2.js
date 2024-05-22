@@ -111,7 +111,6 @@ let Final = (document.getElementById("BtnDone").onclick = function () {
     TraitTp,
     TpInstru,
     TpFonct,
-    TpElec,
     Projet,
     Stage,
     Anglais,
