@@ -70,7 +70,7 @@ let Final = (document.getElementById("BtnDone").onclick = function () {
   let TpInstru = document.getElementById("TpInstru").value,
     TraitTp = document.getElementById("TraitTp").value,
     TpFonct = document.getElementById("TpFonct").value,
-    TpElec = document.getElementById("TpElec").value;
+    // TpElec = document.getElementById("TpElec").value;
 
   // Other modules
 
@@ -87,7 +87,7 @@ let Final = (document.getElementById("BtnDone").onclick = function () {
   // secound calc
 
   let Fonction = (TdFonct * 0.4 + ExamFonct * 0.6) * 2;
-  let Electronic = (TdElec * 0.4 + ExamElec * 0.6 + TpElec * 1) ;
+  let Electronic = (TdElec * 0.4 + ExamElec * 0.6 ) ;
 
   // Third calc
 
