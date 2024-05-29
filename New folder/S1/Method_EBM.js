@@ -1,3 +1,20 @@
+const Observ = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add("show");
+    } else {
+      entry.target.classList.remove("show");
+    }
+  });
+});
+
+const card = document.querySelectorAll(".card");
+const cardx = document.querySelectorAll(".cardx");
+card.forEach((El) => Observ.observe(El));
+cardx.forEach((El) => Observ.observe(El));
+
+/################################################/;
+
 document.querySelectorAll('input[type="number"]').forEach((input) => {
   input.oninput = () => {
     if (input.value.length > input.maxLength)
